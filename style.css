@@ -395,6 +395,7 @@ body {
   .hero7{
     display: flex;
     flex-direction: column;
+    height: 100%;
   }
 
   .col1 {
@@ -1362,7 +1363,6 @@ body {
   display: flex;
   justify-content: end;
   flex-direction: column;
-  height: 100vh;
   padding: 0;
   width: 100%;
 }
@@ -1376,7 +1376,7 @@ body {
 #footer-section .reserve {
   background-color: white;
   width: 100%;
-  height: 5%;
+  padding: 18px 0;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -1393,10 +1393,12 @@ body {
   display: grid;
   grid-template-columns: 50% 50%;
   padding: 40px 30px;
+  margin-top: 60px;
 }
 
 .footer-container ul>li {
   max-width: 296px;
+  color: #ECEEF4;
 }
 
 .footer-container ul:last-of-type h4 {
@@ -1436,7 +1438,7 @@ body {
   .footer-container {
     display: flex;
     justify-content: space-between;
-    padding: 120px;
+    padding: 110px;
   }
 
   .footer-container ul:last-of-type {
@@ -1481,7 +1483,7 @@ body {
   }
 
   .footer-container ul li:not(:first-of-type) {
-    font-size: 18px;
+    font-size: 15px;
   }
 
   .social-icons>* {
